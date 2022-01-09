@@ -1,0 +1,94 @@
+/* CSS templet */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: sans-serif;
+  background: linear-gradient(
+      217deg,
+      rgba(255, 0, 0, 0.8),
+      rgba(255, 0, 0, 0) 70.71%
+    ),
+    linear-gradient(127deg, rgba(0, 255, 0, 0.8), rgba(0, 255, 0, 0) 70.71%),
+    linear-gradient(336deg, rgba(0, 0, 255, 0.8), rgba(0, 0, 255, 0) 70.71%);
+}
+
+p {
+  width: 100%;
+}
+
+img {
+  width: 100%;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* write code below from here  */
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.counter-div {
+  width: 40rem;
+  border: 1px solid gray;
+  padding: 1rem;
+  background-color: rgb(50, 58, 128);
+  color: white;
+  text-align: center;
+  border-radius: 8px;
+}
+
+.heading {
+  font-size: 3rem;
+}
+
+.counter-div > * {
+  margin-bottom: 2.5rem;
+}
+
+/* .counter-div h1 {
+  font-size: 2rem;
+} */
+
+.count {
+  font-size: 5rem;
+}
+
+.buttons button {
+  padding: 1rem;
+  margin: 0 1rem;
+  font-size: 1.5rem;
+  border: 5px solid black;
+  border-radius: 8px;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+button.subtract {
+  background-color: tomato;
+  cursor: pointer;
+}
+button.reset {
+  background-color: #444;
+  cursor: pointer;
+}
+button.add {
+  background-color: green;
+  cursor: pointer;
+}
